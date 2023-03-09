@@ -1,0 +1,26 @@
+{
+  "testcases":
+  [
+    {
+      "name": "lane",
+      "image_path": "data/input/lane.jpeg",
+      "kernel_size": 3,
+      "sigma" : 2.0,
+      "edge_threshold_min": 240,
+      "edge_threshold_max": 250,
+      "slope_upper_threshold": 0.6,
+      "slope_lower_threshold": -0.2,
+      "triangular_mask" : [
+        [1, 280],
+        [1, 262],
+        [242, 170],
+        [449, 255],
+        [449, 280]],
+      "rho" : 1,
+      "threshold" : 35,
+      "min_line_length" : 15,
+      "max_line_gap" : 5,
+      "max_lines" : 25
+    }
+  ]
+}
